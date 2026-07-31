@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Contact - Monroeu">
+  <title>IPUFFGAS - Signup</title>
+
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Sign up</h1>
+      <p>Sign up to join the IPUFFGAS community.</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="sign up.html">sign up</a>
+    </nav>
+
+    <main>
+      <article>
+        <h2>Create Account</h2>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Name <span class="required">*</span></label>
+            <input id="name" name="name" type="text" required>
+
+            <label for="email">Email <span class="required">*</span></label>
+            <input id="email" name="email" type="email" required>
+
+            <label for="number">Phone Number</label>
+            <input id="phone-number" name="phone-number" type="tel" placeholder="123-456-7890" required>
+
+            <label for="password">Password <span class="required">*</span></label>
+            <input id="password" name="password" type="password" required>
+          </fieldset>
+
+          <fieldset>
+            <legend>Preferences</legend>
+            <div class="inline">
+              <input id="contact-email" type="radio" name="contact-method" value="email" checked>
+              <label for="contact-email">Email</label>
+            </div>
+            <div class="inline">
+              <input id="contact-phone" type="radio" name="contact-method" value="phone">
+              <label for="contact-phone">Phone</label>
+            </div>
+
+            <label>
+              <input id="subscribe" type="checkbox" name="subscribe" value="yes">
+              Subscribe to updates
+            </label>
+          </fieldset>
+
+          <button type="submit">Submit</button>
+        </form>
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 IPUFFGAS — All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
