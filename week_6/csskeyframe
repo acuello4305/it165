@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <META charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframe</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background: #e8eef7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .timelinebox {
+            width: 320px;
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 30px 25px;
+            text-align: center;
+            border: 1px solid #d8e2f0;
+            animation: timeline 3s ease-in-out infinite;
+        }
+
+        @keyframes timeline {
+            0% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(180deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }

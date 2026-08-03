@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background: #e8eef7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .info-card {
+      width: 320px;
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 30px 25px;
+      text-align: center;
+      border: 1px solid #d8e2f0;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .info-card:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 16px 28px rgba(0, 0, 0, 0.18);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #1f4e79;
+    }
+
+    p {
+      color: #555;
+      line-height: 1.5;
+      font-size: 15px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 10px 20px;
+      background: #1f4e79;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background: #163a5c;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="info-card">
+      <h2>Interactive Card</h2>
+      <p>
+        Move your mouse over this card to see a transition, zoom effect, and a shadow.
+      </p>
+
+      <a href="#" class="button">Learn More</a>
+    </div>
+  </div>
+
+</body>
+</html>
+```
