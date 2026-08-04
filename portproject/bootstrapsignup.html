@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Sign Up - IPUFFGAS">
+
+<title>IPUFFGAS - Sign Up</title>
+
+
+<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+
+<script
+    src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+    crossorigin="anonymous">
+</script>
+
+
+<link
+    href="https://fonts.googleapis.com/css?family=Varela+Round"
+    rel="stylesheet">
+
+<link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+
+<link href="css/styles.css" rel="stylesheet">
+
+<style>
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .signup-content {
+        padding: 120px 20px 80px;
+    }
+
+    .signup-box {
+        background: white;
+        padding: 40px;
+        border-radius: 8px;
+    }
+
+    .signup-box fieldset {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 25px;
+        margin-bottom: 25px;
+    }
+
+    .signup-box legend {
+        font-weight: bold;
+        width: auto;
+        padding: 0 10px;
+    }
+
+    .signup-box label {
+        margin-bottom: 5px;
+    }
+
+    .signup-box .form-control {
+        margin-bottom: 15px;
+    }
+
+    .preference {
+        margin-bottom: 12px;
+    }
+
+    @media (max-width: 768px) {
+
+        .signup-content {
+            padding-top: 100px;
+        }
+
+        .signup-box {
+            padding: 25px;
+        }
+
+    }
+
+</style>
+
+
+</head>
+
+<body id="page-top">
+
+
+<nav
+    class="navbar navbar-expand-lg navbar-light fixed-top"
+    id="mainNav">
+
+    <div class="container px-4 px-lg-5">
+
+
+  
+        <a
+            class="navbar-brand"
+            href="bootstrapindex.html">
+
+            IPUFFGAS
+
+        </a>
+
+
+        <!-- Mobile Menu Button -->
+        <button
+            class="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+            Menu
+
+            <i class="fas fa-bars"></i>
+
+        </button>
+
+
+        <!-- Navigation Links -->
+        <div
+            class="collapse navbar-collapse"
+            id="navbarResponsive">
+
+            <ul class="navbar-nav ms-auto">
+
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link"
+                        href="bootstrapindex.html">
+
+                        Home
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link"
+                        href="bootstrapabout.html">
+
+                        About
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link"
+                        href="bootstrapsignup.html">
+
+                        Sign Up
+
+                    </a>
+
+                </li>
+
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<!-- Sign Up Header -->
+<header class="masthead">
+
+    <div class="container px-4 px-lg-5">
+
+        <div class="text-center">
+
+            <h1 class="mx-auto my-0 text-uppercase">
+                Sign Up
+            </h1>
+
+            <h2 class="text-white-50 mx-auto mt-2 mb-5">
+                Sign up to join the IPUFFGAS community.
+            </h2>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- Sign Up Section -->
+<section class="signup-content bg-light">
+
+    <div class="container px-4 px-lg-5">
+
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+
+            <div class="col-lg-8">
+
+                <div class="signup-box">
+
+                    <h2 class="mb-4 text-center">
+                        Create Account
+                    </h2>
+
+
+                    <form action="#" method="post">
+
+
+                        <!-- Personal Information -->
+                        <fieldset>
+
+                            <legend>
+                                Personal Information
+                            </legend>
+
+
+                            <!-- Name -->
+                            <label for="name">
+                                Name *
+                            </label>
+
+                            <input
+                                class="form-control"
+                                id="name"
+                                name="name"
+                                type="text"
+                                required>
+
+
+                            <!-- Email -->
+                            <label for="email">
+                                Email *
+                            </label>
+
+                            <input
+                                class="form-control"
+                                id="email"
+                                name="email"
+                                type="email"
+                                required>
+
+
+                            <!-- Phone -->
+                            <label for="phone-number">
+                                Phone Number
+                            </label>
+
+                            <input
+                                class="form-control"
+                                id="phone-number"
+                                name="phone-number"
+                                type="tel"
+                                placeholder="123-456-7890">
+
+
+                            <!-- Password -->
+                            <label for="password">
+                                Password *
+                            </label>
+
+                            <input
+                                class="form-control"
+                                id="password"
+                                name="password"
+                                type="password"
+                                required>
+
+                        </fieldset>
+
+
+                        <!-- Preferences -->
+                        <fieldset>
+
+                            <legend>
+                                Preferences
+                            </legend>
+
+
+                            <!-- Email Option -->
+                            <div class="preference form-check">
+
+                                <input
+                                    class="form-check-input"
+                                    id="contact-email"
+                                    type="radio"
+                                    name="contact-method"
+                                    value="email"
+                                    checked>
+
+                                <label
+                                    class="form-check-label"
+                                    for="contact-email">
+
+                                    Email
+
+                                </label>
+
+                            </div>
+
+
+                            <!-- Phone Option -->
+                            <div class="preference form-check">
+
+                                <input
+                                    class="form-check-input"
+                                    id="contact-phone"
+                                    type="radio"
+                                    name="contact-method"
+                                    value="phone">
+
+                                <label
+                                    class="form-check-label"
+                                    for="contact-phone">
+
+                                    Phone
+
+                                </label>
+
+                            </div>
+
+
+                            <!-- Subscribe -->
+                            <div class="preference form-check">
+
+                                <input
+                                    class="form-check-input"
+                                    id="subscribe"
+                                    type="checkbox"
+                                    name="subscribe">
+
+                                <label
+                                    class="form-check-label"
+                                    for="subscribe">
+
+                                    Subscribe to updates
+
+                                </label>
+
+                            </div>
+
+                        </fieldset>
+
+
+                        <!-- Submit -->
+                        <div class="text-center">
+
+                            <button
+                                class="btn btn-primary btn-lg"
+                                type="submit">
+
+                                Submit
+
+                            </button>
+
+                        </div>
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Footer -->
+<footer class="footer bg-black small text-center text-white-50">
+
+    <div class="container px-4 px-lg-5">
+
+        &copy; 2026 IPUFFGAS.
+        All rights reserved.
+
+    </div>
+
+</footer>
+
+
+<!-- Bootstrap JavaScript -->
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+
+<!-- Bootstrap Template JavaScript -->
+<script src="js/scripts.js"></script>
+```
+
+</body>
+
+</html>
