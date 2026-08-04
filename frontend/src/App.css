@@ -1,0 +1,163 @@
+#root {
+    min-height: 100vh;
+    background-color: #0f0f0f;
+    color: #f5f5f5;
+}
+
+
+.navbar {
+    min-height: 70px;
+    padding: 0 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #111111;
+    border-bottom: 1px solid #292929;
+}
+
+.navbar-logo {
+    color: #ffffff;
+    text-decoration: none;
+
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #cccccc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #f5c518;
+}
+
+.nav-signup {
+    background-color: #f5c518;
+    color: #111111 !important;
+
+    padding: 10px 18px;
+    border-radius: 6px;
+
+    font-weight: bold !important;
+}
+
+.nav-signup:hover {
+    background-color: #ffffff;
+}
+
+
+.logout-button {
+    background: transparent;
+
+    border: 1px solid #555555;
+    color: #cccccc;
+
+    padding: 9px 17px;
+    border-radius: 6px;
+
+    font-size: 14px;
+}
+
+.logout-button:hover {
+    background-color: #f5c518;
+    border-color: #f5c518;
+    color: #111111;
+}
+
+
+@media (max-width: 600px) {
+
+    .navbar {
+        padding: 15px 20px;
+
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 12px;
+
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+.access-message {
+    min-height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 40px 20px;
+}
+
+
+.access-message h2 {
+    font-size: 32px;
+
+    margin-bottom: 10px;
+}
+
+
+.access-message p {
+    margin-bottom: 25px;
+
+    opacity: 0.8;
+}
+
+
+.access-button {
+    display: inline-block;
+
+    text-decoration: none;
+
+    padding: 12px 25px;
+
+    border-radius: 6px;
+
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;
+
+        gap: 15px;
+
+        padding: 15px;
+    }
+
+
+    .nav-links {
+        width: 100%;
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+        gap: 12px;
+    }
+
+
+    .navbar-logo {
+        font-size: 22px;
+    }
+
+}
